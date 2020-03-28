@@ -38,6 +38,11 @@ public class Keyword {
 			System.out.println("Opening Safari Browser");
 			Constants.driver=new SafariDriver();
 			break;
+		/*case "HTML":
+			System.out.println("Opening HTML Browser");
+			Constants.driver=new HtmlUnitDriver();
+			break;
+			*/
 		default:
 			System.err.println("Invalid Browser Name: "+browserName);
 		}
@@ -79,30 +84,45 @@ public class Keyword {
 	public static void enterText(String locatorType,String locatorValue, String textToEnter) {
 		
 		getWebElement(locatorType, locatorValue).sendKeys(textToEnter);
+		System.out.println("Text Entered. ");
 		
 	}
 
 	public static void clickOnElement(String locatorType, String locatorValue) {
 		
 		getWebElement(locatorType, locatorValue).click();
+		System.out.println("Clicked on Element. ");
 		
 	}
 	
 	public static void selectValueFromDropdown(String locatorType,String locatorValue, String textToSelect) {
 		WebElement element=getWebElement(locatorType, locatorValue);
 		Select select=new Select(element);
-		select.selectByVisibleText(textToSelect);	
+		select.selectByVisibleText(textToSelect);
+		System.out.println("Value from Dropdown Selected. ");
 		
 	}
 	
+	/*
+	 * This method is used for maximizing the browser window.
+	 * @Author Nishant Choudhari                                                                                                                                                                                                                                                                                                                                                       
+	 */
 	public static void maximizeBrowser() {
-		Constants.driver.manage().window().maximize();
+		Constants.driver.manage().window().maximize();                                                                                                                                                                                                                                                                                                                                                                                                       
 	}
 	
+	/*
+	 * This method is used to close the current browser.
+	 * @Author Nishant Choudhari
+	 */
 	public static void closeBrowser() {
 		Constants.driver.close();
 	}
 	
+	/*
+	 * This method is used to quit the Browser.
+	 * @Author Nishant Choudhari
+	 */
 	public static void closeAllBrowsers() {
 		Constants.driver.quit();
 
