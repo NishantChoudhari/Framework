@@ -36,7 +36,7 @@ public class Regression {
 	@Test
 	public void tc_02() {
 		Keyword.openBrowser("Chrome");
-	    Constants.driver.manage().window().maximize();
+	    Keyword.maximizeBrowser();
 		Keyword.openUrl("https://Amazon.in");
 		try {
 			Thread.sleep(1000);
@@ -57,7 +57,7 @@ public class Regression {
 	@Test
 	public void tc_03() {
 		Keyword.openBrowser("Chrome");
-	    Constants.driver.manage().window().maximize();
+	    Keyword.maximizeBrowser();
 		Keyword.openUrl("https://Amazon.in");
 		try {
 			Thread.sleep(1000);
@@ -77,7 +77,7 @@ public class Regression {
 	@Test
 	public void tc_04() {
 		Keyword.openBrowser("Chrome");
-	    Constants.driver.manage().window().maximize();
+	    Keyword.maximizeBrowser();
 		Keyword.openUrl("https://Amazon.in");
 		try {
 			Thread.sleep(1000);
@@ -97,7 +97,7 @@ public class Regression {
 	@Test
 	public void tc_05() {
 		Keyword.openBrowser("Chrome");
-	    Constants.driver.manage().window().maximize();
+	    Keyword.maximizeBrowser();
 		Keyword.openUrl("https://Amazon.in");
 		try {
 			Thread.sleep(1000);
@@ -117,7 +117,7 @@ public class Regression {
 	@Test
 	public void tc_06() {
 		Keyword.openBrowser("Chrome");
-	    Constants.driver.manage().window().maximize();
+	    Keyword.maximizeBrowser();
 		Keyword.openUrl("https://Amazon.in");
 		try {
 			Thread.sleep(1000);
@@ -137,7 +137,7 @@ public class Regression {
 	@Test
 	public void tc_07() {
 		Keyword.openBrowser("Chrome");
-	    Constants.driver.manage().window().maximize();
+	    Keyword.maximizeBrowser();
 		Keyword.openUrl("https://Amazon.in");
 		try {
 			Thread.sleep(1000);
@@ -157,7 +157,7 @@ public class Regression {
 	@Test
 	public void tc_08() {
 		Keyword.openBrowser("Chrome");
-	    Constants.driver.manage().window().maximize();
+	    Keyword.maximizeBrowser();
 		Keyword.openUrl("https://Amazon.in");
 		try {
 			Thread.sleep(1000);
@@ -177,7 +177,7 @@ public class Regression {
 	@Test
 	public void tc_09() {
 		Keyword.openBrowser("Chrome");
-	    Constants.driver.manage().window().maximize();
+	    Keyword.maximizeBrowser();
 		Keyword.openUrl("https://Amazon.in");
 		try {
 			Thread.sleep(1000);
@@ -197,7 +197,7 @@ public class Regression {
 	@Test
 	public void tc_10() {
 		Keyword.openBrowser("Chrome");
-	    Constants.driver.manage().window().maximize();
+	    Keyword.maximizeBrowser();
 		Keyword.openUrl("https://Amazon.in");
 		try {
 			Thread.sleep(1000);
@@ -217,7 +217,7 @@ public class Regression {
 	@Test
 	public void tc_11() {
 		Keyword.openBrowser("Chrome");
-	    Constants.driver.manage().window().maximize();
+	    Keyword.maximizeBrowser();
 		Keyword.openUrl("https://Amazon.in");
 		try {
 			Thread.sleep(1000);
