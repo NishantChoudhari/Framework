@@ -1,0 +1,30 @@
+[INFO ] 2020-04-04 13:26:43.683 [main] Regression - Opened the Chrome Browser
+[ERROR] 2020-04-04 13:26:43.714 [main] Regression - Browser atError
+[INFO ] 2020-04-04 13:26:47.997 [main] Regression - Maximize the Browser
+[WARN ] 2020-04-04 13:26:48.001 [main] Regression - Maximized browser
+[INFO ] 2020-04-04 13:26:56.226 [main] Regression - URL Launched
+[INFO ] 2020-04-04 13:28:13.549 [main] Regression - Opened the Chrome Browser
+[ERROR] 2020-04-04 13:28:13.564 [main] Regression - Browser atError
+[INFO ] 2020-04-04 13:28:17.826 [main] Regression - Maximize the Browser
+[WARN ] 2020-04-04 13:28:17.826 [main] Regression - Maximized browser
+[INFO ] 2020-04-04 13:28:25.772 [main] Regression - URL Launched
+[INFO ] 2020-04-04 13:35:14.796 [main] Regression - Chrome Browser Opened Successfully
+[ERROR] 2020-04-04 13:35:14.983 [main] Regression - No error while opening Chrome Browser
+[INFO ] 2020-04-04 13:35:19.413 [main] Regression - Browser maximized Successfully
+[WARN ] 2020-04-04 13:35:19.413 [main] Regression - Warning, the Browser is Maximized
+[INFO ] 2020-04-04 13:35:30.839 [main] Regression - URL Launched Successfully
+[INFO ] 2020-04-04 13:35:41.383 [main] Regression - Browser Successfully Closed
+[INFO ] 2020-04-04 13:38:14.274 [main] Regression - Chrome Browser Opened Successfully
+[ERROR] 2020-04-04 13:38:14.338 [main] Regression - No error while opening Chrome Browser
+[INFO ] 2020-04-04 13:38:18.849 [main] Regression - Browser maximized Successfully
+[WARN ] 2020-04-04 13:38:18.849 [main] Regression - Warning, the Browser is Maximized
+[INFO ] 2020-04-04 13:38:27.875 [main] Regression - URL Launched Successfully
+[INFO ] 2020-04-04 13:38:32.804 [main] Regression - Screenshot has been taken Successfully
+[INFO ] 2020-04-04 13:38:41.214 [main] Regression - Browser Successfully Closed
+[INFO ] 2020-04-04 13:57:33.439 [main] Regression - Chrome Browser Opened Successfully
+[ERROR] 2020-04-04 13:57:33.689 [main] Regression - No error while opening Chrome Browser
+[INFO ] 2020-04-04 13:57:38.726 [main] Regression - Browser maximized Successfully
+[WARN ] 2020-04-04 13:57:38.742 [main] Regression - Warning, the Browser is Maximized
+[INFO ] 2020-04-04 13:57:55.252 [main] Regression - URL Launched Successfully
+[INFO ] 2020-04-04 13:58:01.230 [main] Regression - Screenshot has been taken Successfully
+[INFO ] 2020-04-04 13:58:08.066 [main] Regression - Browser Successfully Closed

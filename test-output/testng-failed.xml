@@ -5,7 +5,7 @@
     <classes>
       <class name="com.testingshastra.tests.Regression">
         <methods>
-          <include name="tc_03"/>
+          <include name="tc_01"/>
         </methods>
       </class> <!-- com.testingshastra.tests.Regression -->
     </classes>

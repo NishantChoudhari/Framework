@@ -1,0 +1,110 @@
+{ 
+	"Recommended Topics":[
+						"Where's My Order?",
+						"Paying for Your Order",
+						"Delivery Charges",
+						"Returns & Refunds",
+						"Manage Your Account Information",
+						"Pay on Delivery",
+						"Revise Payment"
+	],
+	"Shipping & Delivery":[
+						"Shipping & Delivery",
+						"Amazon Prime",
+						"Shipping Speeds and Delivery Charges",
+						"Track Your Package",
+						"Contact Courier",
+						"Ordering Restrictions"
+	],
+	"Amazon Prime":[
+						"About Amazon Prime",
+						"Sign Up for Amazon Prime",
+						"About the Amazon Prime Membership Fee",
+						"About Prime Eligible Items",
+						"Amazon Prime Delivery Benefits"
+	],
+	"Payments & Pricing":[	
+						"Payments & Pricing",
+						"Pay on Delivery",
+						"EMI",
+						"Credit/Debit Card",
+						"Net Banking",
+						"About Lightning Deals",
+						"UPI",
+						"Revise Payment"
+	],
+	"Amazon Pay":[
+						"Amazon Pay",
+						"Using Amazon Pay balance",
+						"View Amazon Pay Transactions",
+						"Complete Full KYC",
+						"Legal"					
+	],
+	"Returns, Refunds":[
+						"Returns & Refunds",
+						"About Our Return Policies",
+						"How to Return an Item? ",
+						"Check status of Return",
+						"Refund Timelines"
+	],
+	"Ordering":[
+						"Ordering",
+						"Cancel Items or Orders",
+						"About Items Fulfilled by Amazon",
+						"About Seller Fulfilled Items",
+						"About Gift Orders",
+						"Search and Browse for Items",
+						"Installations"
+	],
+	"Managing Your Account":[
+						"Managing Your Account",
+						"Manage Your Payment Methods",
+						"Change Your Account Settings",
+						"About the Message Center",
+						"Connect Your Social Accounts to Amazon",
+						"About Mobile Phone Number Accounts"
+	],
+	"Amazon Devices":[
+						"Amazon Devices",
+						"Fire TV Devices",
+						"Kindle E-Readers",
+						"Support for Kindle Content",
+						"Alexa, Echo and Echo Dot",
+						"Give an Amazon Device as a Gift"
+	],
+	"Digital Services & Content":[
+						"Digital Services & Content",
+						"Amazon Appstore",
+						"Amazon Music",
+						"PrimeVideo.com"
+	],
+	"Amazon Business":[
+						"Amazon Business",
+						"About Amazon Business",
+						"Registering your Business Account",
+						"About GST Invoice",
+						"How to identify a product with GST invoice?",
+						"How to download a GST invoice?",
+						"Amazon Business - Frequently Asked Questions",
+						"More About Amazon Business"
+	],
+	"Other Topics & Help Sites":[
+						"Other Topics",
+						"Seller Fulfilled Orders",
+						"Contacting Amazon",
+						"Amazon Co-Pilot",
+						"Site Features",
+						"Security & Privacy",
+						"Gifts and Lists",
+						"Help for Amazon Sellers",
+						"FAQs about orders and the COVID-19 virus"
+	],
+	"Customer Service":[
+						"Customer Service",
+						"Track Your Package",
+						"Track by SMS",
+						"About Our Returns Policies",
+						"Order Gift Cards"
+	]
+	
+}

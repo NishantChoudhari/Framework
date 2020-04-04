@@ -1,122 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="11" passed="10">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="317390" started-at="2020-03-28T06:59:51Z" finished-at="2020-03-28T07:05:08Z">
+  <suite name="Default suite" duration-ms="52012" started-at="2020-04-04T08:27:16Z" finished-at="2020-04-04T08:28:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="317390" started-at="2020-03-28T06:59:51Z" finished-at="2020-03-28T07:05:08Z">
+    <test name="Default test" duration-ms="52012" started-at="2020-04-04T08:27:16Z" finished-at="2020-04-04T08:28:08Z">
       <class name="com.testingshastra.tests.Regression">
-        <test-method status="PASS" signature="tc_01()[pri:0, instance:com.testingshastra.tests.Regression@7f77e91b]" name="tc_01" duration-ms="25301" started-at="2020-03-28T12:29:51Z" finished-at="2020-03-28T12:30:16Z">
+        <test-method status="PASS" signature="tc_01()[pri:0, instance:com.testingshastra.tests.Regression@67e2d983]" name="tc_01" duration-ms="51966" started-at="2020-04-04T13:57:16Z" finished-at="2020-04-04T13:58:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_01 -->
-        <test-method status="PASS" signature="tc_02()[pri:0, instance:com.testingshastra.tests.Regression@7f77e91b]" name="tc_02" duration-ms="28661" started-at="2020-03-28T12:30:16Z" finished-at="2020-03-28T12:30:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_02 -->
-        <test-method status="FAIL" signature="tc_03()[pri:0, instance:com.testingshastra.tests.Regression@7f77e91b]" name="tc_03" duration-ms="20489" started-at="2020-03-28T12:30:45Z" finished-at="2020-03-28T12:31:06Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"a[href="/gp/css/order-history?ie=UTF8&ref_=hp_ss_v3_yo_t4"]>div"}
-  (Session info: chrome=80.0.3987.149)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'KANISHK', ip: '192.168.43.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\NISHAN~1\AppData\Local\Temp\scoped_dir2116_663277309}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55270}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
-Session ID: 9100048c6019ad8ad89240382a4694d4
-*** Element info: {Using=css selector, value=a[href="/gp/css/order-history?ie=UTF8&ref_=hp_ss_v3_yo_t4"]>div}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[href="/gp/css/order-history?ie=UTF8&ref_=hp_ss_v3_yo_t4"]>div"}
-  (Session info: chrome=80.0.3987.149)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'KANISHK', ip: '192.168.43.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\NISHAN~1\AppData\Local\Temp\scoped_dir2116_663277309}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55270}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
-Session ID: 9100048c6019ad8ad89240382a4694d4
-*** Element info: {Using=css selector, value=a[href="/gp/css/order-history?ie=UTF8&ref_=hp_ss_v3_yo_t4"]>div}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:450)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at com.testingshastra.keywords.Keyword.getWebElement(Keyword.java:63)
-	at com.testingshastra.keywords.Keyword.clickOnElement(Keyword.java:93)
-	at com.testingshastra.tests.Regression.tc_03(Regression.java:69)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_03 -->
-        <test-method status="PASS" signature="tc_04()[pri:0, instance:com.testingshastra.tests.Regression@7f77e91b]" name="tc_04" duration-ms="43200" started-at="2020-03-28T12:31:06Z" finished-at="2020-03-28T12:31:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_04 -->
-        <test-method status="PASS" signature="tc_05()[pri:0, instance:com.testingshastra.tests.Regression@7f77e91b]" name="tc_05" duration-ms="31671" started-at="2020-03-28T12:31:49Z" finished-at="2020-03-28T12:32:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_05 -->
-        <test-method status="PASS" signature="tc_06()[pri:0, instance:com.testingshastra.tests.Regression@7f77e91b]" name="tc_06" duration-ms="33691" started-at="2020-03-28T12:32:21Z" finished-at="2020-03-28T12:32:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_06 -->
-        <test-method status="PASS" signature="tc_07()[pri:0, instance:com.testingshastra.tests.Regression@7f77e91b]" name="tc_07" duration-ms="25054" started-at="2020-03-28T12:32:54Z" finished-at="2020-03-28T12:33:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_07 -->
-        <test-method status="PASS" signature="tc_08()[pri:0, instance:com.testingshastra.tests.Regression@7f77e91b]" name="tc_08" duration-ms="27015" started-at="2020-03-28T12:33:19Z" finished-at="2020-03-28T12:33:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_08 -->
-        <test-method status="PASS" signature="tc_09()[pri:0, instance:com.testingshastra.tests.Regression@7f77e91b]" name="tc_09" duration-ms="23284" started-at="2020-03-28T12:33:46Z" finished-at="2020-03-28T12:34:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_09 -->
-        <test-method status="PASS" signature="tc_10()[pri:0, instance:com.testingshastra.tests.Regression@7f77e91b]" name="tc_10" duration-ms="29366" started-at="2020-03-28T12:34:10Z" finished-at="2020-03-28T12:34:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_10 -->
-        <test-method status="PASS" signature="tc_11()[pri:0, instance:com.testingshastra.tests.Regression@7f77e91b]" name="tc_11" duration-ms="29483" started-at="2020-03-28T12:34:39Z" finished-at="2020-03-28T12:35:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_11 -->
       </class> <!-- com.testingshastra.tests.Regression -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
